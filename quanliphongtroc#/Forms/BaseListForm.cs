@@ -92,6 +92,7 @@ namespace quanliphongtro.Forms
             // Split
             var split = new SplitContainer
             {
+                Size = new Size(1000, 600),
                 Dock = DockStyle.Fill,
                 Orientation = Orientation.Vertical,
                 IsSplitterFixed = true,

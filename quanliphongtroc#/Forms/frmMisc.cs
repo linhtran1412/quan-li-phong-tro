@@ -59,7 +59,8 @@ namespace quanliphongtro.Forms
             pnlT.Controls.AddRange(new Control[] { lblP, cboPhong, lblTh, numThang, lblNam, numNam, btnLoad });
 
             // Split
-            var split = new SplitContainer { Dock = DockStyle.Fill, SplitterDistance = 600, IsSplitterFixed = true, BackColor = BG, Panel1MinSize = 400, Panel2MinSize = 320 };
+          
+            var split = new SplitContainer { Size = new Size(1000, 600), Dock = DockStyle.Fill, SplitterDistance = 600, IsSplitterFixed = true, BackColor = BG, Panel1MinSize = 400, Panel2MinSize = 320 };
 
             // Grid
             grid = MkGrid();
