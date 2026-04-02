@@ -32,6 +32,24 @@ namespace quanliphongtro.Forms
             BuildUI();
         }
 
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // frmMain
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Name = "frmMain";
+            this.Load += new System.EventHandler(this.frmMain_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void BuildUI()
         {
             bool isAdmin = _user.MaVaiTro == 1;
